@@ -119,55 +119,59 @@
               </tr> -->
               <!-- END PAPER NeMo -->
 
-               <tr onmouseout="cvpr_2024_stop()" onmouseover="cvpr_2024_start()">
+              <!-- START PAPER DriveQA -->
+               <tr onmouseout="iccv_2025_stop()" onmouseover="iccv_2025_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='cvpr_2024_video'><video width=100% muted autoplay loop>
+                    <!-- <div class="two" id='iccv_2025_video'><video width=100% muted autoplay loop>
                         <source src="images/FeD_short.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                      </video></div>
-                    <div id='cvpr_2024_still'><img src='images/fed.png' width=100%></div>
+                      </video></div> -->
+                    <div id='iccv_2025_driveqa'><img src='images/iccv2025_driveQA.png' width=100%></div>
                   </div>
-                  <script type="text/javascript">
-                    function cvpr_2024_start() {
-                      document.getElementById('cvpr_2024_video').style.display = 'inline';
-                      document.getElementById('cvpr_2024_still').style.display = 'none';
+                  <!-- <script type="text/javascript">
+                    function iccv_2025_start() {
+                      document.getElementById('iccv_2025_video').style.display = 'inline';
+                      document.getElementById('iccv_2025_still').style.display = 'none';
                     }
 
-                    function cvpr_2024_stop() {
-                      document.getElementById('cvpr_2024_video').style.display = 'none';
-                      document.getElementById('cvpr_2024_still').style.display = 'inline';
+                    function iccv_2025_stop() {
+                      document.getElementById('iccv_2025_video').style.display = 'none';
+                      document.getElementById('iccv_2025_still').style.display = 'inline';
                     }
-                    cvpr_2024_stop()
-                  </script>
+                    iccv_2025_stop()
+                  </script> -->
                 </td>
 
                 <td
                   style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:75%;vertical-align:middle">
-                  <a href="https://jimuyangz.github.io/papers/FeD_v1.pdf">
-                    <papertitle>Feedback-Guided Autonomous Driving
+                  <a href="https://driveqaiccv.github.io/">
+                    <papertitle>Passing the Driving Knowledge Test
                       </papertitle>
                   </a>
                   <br>
-                  <strong>Jimuyang Zhang</strong>, <a href="https://tzmhuang.github.io/">Zanming Huang, <a href="https://arijitray1993.github.io/">Arijit Ray,
-                   <a href="https://scholar.google.com/citations?user=p9zVBV4AAAAJ&hl=en&oi=ao">Eshed Ohn-Bar</a>
+                  <a href="https://maolin-wei.github.io/"></a><strong>Maolin Wei*</strong>, <a href="https://wanzhouliu.github.io/">Wanzhou Liu*,
+                   <a href="https://eshed1.github.io/">Eshed Ohn-Bar</a>
                   <br>
-                  <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2024
+                  <em>International Conference on Computer Vision (ICCV)</em>, 2025
                   <br>
-                  <strong><FONT COLOR="#ff0000">Highlight presentation (~top 2.8% of submitted papers)</FONT></strong>
-                  <br>
-                  <a href="https://jimuyangz.github.io/papers/FeD_v1.pdf">paper</a> &nbsp/&nbsp
-                  <a href="https://fedaltothemetal.github.io/">webpage</a> &nbsp/&nbsp
-                  <a href="https://www.youtube.com/watch?v=0f6NQ7sn6hA">video</a>
+                  <!-- <strong><FONT COLOR="#ff0000">Highlight presentation (~top 2.8% of submitted papers)</FONT></strong> -->
+                  <!-- <br> -->
+                  <!-- <a href="https://jimuyangz.github.io/papers/FeD_v1.pdf">paper</a> &nbsp/&nbsp -->
+                    <a href="https://driveqaiccv.github.io/" style="transform: rotate(-10deg); display: inline-block;">[Project Page]</a> &nbsp/&nbsp
+                  <!-- <a href="https://www.youtube.com/watch?v=0f6NQ7sn6hA">video</a> -->
                   <p></p>
-                  <p>We introduce FeD, a highly efficient MLLM-based sensorimotor driving model, enabled by three key improvements: 1) language-based feedback 
-                    refining trained using auto-generated feedback data. 2) training the model via distillation from a privileged agent with Bird's Eye View (BEV) 
-                    of the scene, allowing our model to robustly use just RGB data at test time. 3) predicting driving waypoints in a masked-token fashion from the 
-                    waypoint tokens' internal representations, i.e., not relying on the slow sequentially generative process.
+                  <p>We present <strong>DriveQA</strong>, an extensive open-source text and vision-based benchmark that exhaustively covers traffic regulations and scenarios. 
+                    Through our experiments using DriveQA, we show that (1) state-of-the-art LLMs and Multimodal LLMs (MLLMs) perform well on basic traffic rules 
+                    but exhibit significant weaknesses in numerical reasoning and complex right-of-way scenarios, traffic sign variations, and spatial layouts, 
+                    (2) fine-tuning on DriveQA improves accuracy across multiple categories, particularly in regulatory sign recognition and intersection decision-making, 
+                    (3) controlled variations in DriveQA-V provide insights into model sensitivity to environmental factors such as lighting, perspective, distance, and weather conditions, 
+                    and (4) pretraining on DriveQA enhances downstream driving task performance, leading to improved results on real-world datasets such as nuScenes and BDD, 
+                    while also demonstrating that models can internalize text and synthetic traffic knowledge to generalize effectively across downstream QA tasks. 
                   </p>
                 </td>
               </tr>
-              <!-- END PAPER FeD -->
+              <!-- END PAPER DriveQA -->
 
 
             </tbody>
