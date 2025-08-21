@@ -83,7 +83,7 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-size: 16px
 }
 
 @media 
@@ -100,7 +100,7 @@ only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-wi
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 heading {
@@ -110,7 +110,7 @@ heading {
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 700
 }
 
