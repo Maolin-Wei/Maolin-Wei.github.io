@@ -25,4 +25,4 @@ latest_posts:
 ---
 
 I am a first-year PhD student at Boston University, advised by Prof. Eshed Ohn-Bar. 
-I received my Master's degree, also from Boston University, and my Bachelor's degree from East China Normal University.
+I received my Master's degree from Boston University, and my Bachelor's degree from East China Normal University.
