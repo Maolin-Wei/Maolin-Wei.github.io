@@ -162,7 +162,17 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>{{ entry.booktitle }}</em>{% endcapture %}
+      {% capture entrytype %}
+        <em>
+          {{ entry.booktitle 
+            | replace: "(ICCV)", "(<strong>ICCV</strong>)"
+            | replace: "(ECCV)", "(<strong>ECCV</strong>)"
+            | replace: "(CVPR)", "(<strong>CVPR</strong>)"
+            | replace: "(CoRL)", "(<strong>CoRL</strong>)"
+            | replace: "(IROS)", "(<strong>IROS</strong>)"
+            | replace: "(NeurIPS)", "(<strong>NeurIPS</strong>)" }}
+        </em>
+      {% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
