@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: # <a href='#'>Boston University</a>
+subtitle: mlwei [at] bu [dot] edu / maolinwei88 [at] gmail [dot] com # <a href='#'>Boston University</a>
 
 profile:
   align: right
