@@ -764,7 +764,8 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        color: #0076df;
       }
 
       .author {
@@ -797,8 +798,8 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          color: #0076df;;
+          border: 1px solid #0076df;;
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
@@ -806,8 +807,8 @@ footer.sticky-bottom {
           margin-left: 0;
 
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: #0076df;
+            border-color: #0076df;
           }
         }
         a.award.btn {
