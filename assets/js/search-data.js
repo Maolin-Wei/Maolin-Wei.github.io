@@ -384,16 +384,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-excited-that-our-paper-driveqa-was-accepted-to-iccv-2025",
+          title: 'Excited that our paper DriveQA was accepted to ICCV 2025!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -446,6 +438,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%6D%6C%77%65%69@%62%75.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Maolin-Wei", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/maolin-wei", "_blank");
         },
       },{
         id: 'social-scholar',
