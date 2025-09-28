@@ -764,6 +764,7 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        font-size: 1.2rem;
       }
 
       .author {
@@ -777,7 +778,8 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
+          font-weight: bold;
+          border-bottom: none;
           font-style: normal;
         }
 
