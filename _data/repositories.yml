@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Maolin-Wei
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Maolin-Wei/EC500-Project-Kidney-Localization
+  - Maolin-Wei/EC523-Project-Abnormality-Detection-in-Musculoskeletal-Radiographs
+  - ASL-LEX/SignLab2
