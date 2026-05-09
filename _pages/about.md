@@ -26,4 +26,4 @@ latest_posts:
 
 I am a first-year PhD student in Electtical Engineering at [Boston University](https://www.bu.edu/), advised by Prof. [Eshed Ohn-Bar](https://eshed1.github.io/). I received my Master's degree in Electrical & Computer Engineering from [Boston University](https://www.bu.edu/), and my Bachelor's degree in Telecommunication Engineering from [East China Normal University](https://english.ecnu.edu.cn/).
 
-My research interests lie in computer vision, machine learning and robotics, with their applications in autonomous and assistive systems. 
+My research interests lie in computer vision and machine learning, with their applications in autonomous and assistive systems. 
